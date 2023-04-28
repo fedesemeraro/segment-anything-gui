@@ -1,0 +1,21 @@
+name: sam
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python >=3.7
+  - pip
+
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda
+
+  - opencv
+  - pycocotools
+  - matplotlib
+  - onnxruntime
+  - onnx
+  
+  - ipympl

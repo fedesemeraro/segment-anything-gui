@@ -1,0 +1,42 @@
+### Files ignored by git ###
+
+# IDEs
+.idea
+.vscode
+.vs
+debug/*
+release/*
+.DS_Store
+.creator
+.creator.*
+.config
+.files
+.includes
+._*
+*.swp
+
+# python, jupyter and cython
+__pycache__
+dist
+build
+*.so
+*egg-info
+.eggs
+.ipynb_checkpoints
+*.pyc
+
+# formats to ignore
+*.pkl
+*.pth
+*.tif*
+*.jpg
+*.png
+*.json
+*.pbs
+*.npy
+
+main*.py
+log*.txt
+*.o*
+
+segment-anything
